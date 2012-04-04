@@ -20,6 +20,16 @@
 		153694A3152C51E8009434DB /* NWCalabashApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */; };
 		153694AF152C527D009434DB /* NWAdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694AD152C527D009434DB /* NWAdditionViewController.m */; };
 		153694B0152C527D009434DB /* NWAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153694AE152C527D009434DB /* NWAdditionViewController.xib */; };
+		153A5B95152C560300E22FB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15369489152C51E8009434DB /* main.m */; };
+		153A5B96152C560300E22FB3 /* NWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536948D152C51E8009434DB /* NWAppDelegate.m */; };
+		153A5B97152C560300E22FB3 /* NWAdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694AD152C527D009434DB /* NWAdditionViewController.m */; };
+		153A5B99152C560300E22FB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947D152C51E8009434DB /* UIKit.framework */; };
+		153A5B9A152C560300E22FB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947F152C51E8009434DB /* Foundation.framework */; };
+		153A5B9B152C560300E22FB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15369481152C51E8009434DB /* CoreGraphics.framework */; };
+		153A5B9D152C560300E22FB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15369486152C51E8009434DB /* InfoPlist.strings */; };
+		153A5B9E152C560300E22FB3 /* NWAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153694AE152C527D009434DB /* NWAdditionViewController.xib */; };
+		153A5BA8152C5EED00E22FB3 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A5BA6152C5E9700E22FB3 /* calabash.framework */; };
+		153A5BAA152C5F1300E22FB3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153A5BA9152C5F1300E22FB3 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,10 @@
 		153694AC152C527D009434DB /* NWAdditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWAdditionViewController.h; sourceTree = "<group>"; };
 		153694AD152C527D009434DB /* NWAdditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWAdditionViewController.m; sourceTree = "<group>"; };
 		153694AE152C527D009434DB /* NWAdditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWAdditionViewController.xib; sourceTree = "<group>"; };
+		153A5BA2152C560300E22FB3 /* NWCalabashApplication copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NWCalabashApplication copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		153A5BA4152C560300E22FB3 /* NWCalabashApplication-cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NWCalabashApplication-cal-Info.plist"; path = "/Users/bruno/Projects/Noodlewerk/NWCalabashApplication/NWCalabashApplication-cal-Info.plist"; sourceTree = "<absolute>"; };
+		153A5BA6152C5E9700E22FB3 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = calabash.framework; path = Frameworks/calabash.framework; sourceTree = "<group>"; };
+		153A5BA9152C5F1300E22FB3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		153A5B98152C560300E22FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A5BAA152C5F1300E22FB3 /* CFNetwork.framework in Frameworks */,
+				153A5B99152C560300E22FB3 /* UIKit.framework in Frameworks */,
+				153A5B9A152C560300E22FB3 /* Foundation.framework in Frameworks */,
+				153A5B9B152C560300E22FB3 /* CoreGraphics.framework in Frameworks */,
+				153A5BA8152C5EED00E22FB3 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +119,7 @@
 			children = (
 				15369479152C51E8009434DB /* NWCalabashApplication.app */,
 				15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */,
+				153A5BA2152C560300E22FB3 /* NWCalabashApplication copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +127,8 @@
 		1536947C152C51E8009434DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				153A5BA9152C5F1300E22FB3 /* CFNetwork.framework */,
+				153A5BA6152C5E9700E22FB3 /* calabash.framework */,
 				1536947D152C51E8009434DB /* UIKit.framework */,
 				1536947F152C51E8009434DB /* Foundation.framework */,
 				15369481152C51E8009434DB /* CoreGraphics.framework */,
@@ -125,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				15369485152C51E8009434DB /* NWCalabashApplication-Info.plist */,
+				153A5BA4152C560300E22FB3 /* NWCalabashApplication-cal-Info.plist */,
 				15369486152C51E8009434DB /* InfoPlist.strings */,
 				15369489152C51E8009434DB /* main.m */,
 				1536948B152C51E8009434DB /* NWCalabashApplication-Prefix.pch */,
@@ -190,6 +220,23 @@
 			productReference = 15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		153A5B93152C560300E22FB3 /* NWCalabashApplication-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153A5B9F152C560300E22FB3 /* Build configuration list for PBXNativeTarget "NWCalabashApplication-cal" */;
+			buildPhases = (
+				153A5B94152C560300E22FB3 /* Sources */,
+				153A5B98152C560300E22FB3 /* Frameworks */,
+				153A5B9C152C560300E22FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NWCalabashApplication-cal";
+			productName = NWCalabashApplication;
+			productReference = 153A5BA2152C560300E22FB3 /* NWCalabashApplication copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,6 +261,7 @@
 			targets = (
 				15369478152C51E8009434DB /* NWCalabashApplication */,
 				15369493152C51E8009434DB /* NWCalabashApplicationTests */,
+				153A5B93152C560300E22FB3 /* NWCalabashApplication-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +281,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				153694A0152C51E8009434DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A5B9C152C560300E22FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A5B9D152C560300E22FB3 /* InfoPlist.strings in Resources */,
+				153A5B9E152C560300E22FB3 /* NWAdditionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				153694A3152C51E8009434DB /* NWCalabashApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A5B94152C560300E22FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A5B95152C560300E22FB3 /* main.m in Sources */,
+				153A5B96152C560300E22FB3 /* NWAppDelegate.m in Sources */,
+				153A5B97152C560300E22FB3 /* NWAdditionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +420,14 @@
 		153694A7152C51E8009434DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
 				INFOPLIST_FILE = "NWCalabashApplication/NWCalabashApplication-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -364,9 +436,14 @@
 		153694A8152C51E8009434DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
 				INFOPLIST_FILE = "NWCalabashApplication/NWCalabashApplication-Info.plist";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +483,46 @@
 			};
 			name = Release;
 		};
+		153A5BA0152C560300E22FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplication-cal-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/Frameworks/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "NWCalabashApplication copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		153A5BA1152C560300E22FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplication-cal-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/Frameworks/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "NWCalabashApplication copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -425,6 +542,7 @@
 				153694A8152C51E8009434DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		153694A9152C51E8009434DB /* Build configuration list for PBXNativeTarget "NWCalabashApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +551,16 @@
 				153694AB152C51E8009434DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153A5B9F152C560300E22FB3 /* Build configuration list for PBXNativeTarget "NWCalabashApplication-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153A5BA0152C560300E22FB3 /* Debug */,
+				153A5BA1152C560300E22FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
