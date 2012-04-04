@@ -18,6 +18,8 @@
 		15369498152C51E8009434DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947F152C51E8009434DB /* Foundation.framework */; };
 		153694A0152C51E8009434DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1536949E152C51E8009434DB /* InfoPlist.strings */; };
 		153694A3152C51E8009434DB /* NWCalabashApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */; };
+		153694AF152C527D009434DB /* NWAdditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694AD152C527D009434DB /* NWAdditionViewController.m */; };
+		153694B0152C527D009434DB /* NWAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153694AE152C527D009434DB /* NWAdditionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +37,21 @@
 		1536947D152C51E8009434DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1536947F152C51E8009434DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15369481152C51E8009434DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15369485152C51E8009434DB /* NWCalabashApplication-Info.plist */ = {isa = PBXFileReference; path = "NWCalabashApplication-Info.plist"; sourceTree = "<group>"; };
+		15369485152C51E8009434DB /* NWCalabashApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NWCalabashApplication-Info.plist"; sourceTree = "<group>"; };
 		15369487152C51E8009434DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15369489152C51E8009434DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1536948B152C51E8009434DB /* NWCalabashApplication-Prefix.pch */ = {isa = PBXFileReference; path = "NWCalabashApplication-Prefix.pch"; sourceTree = "<group>"; };
-		1536948C152C51E8009434DB /* NWAppDelegate.h */ = {isa = PBXFileReference; path = NWAppDelegate.h; sourceTree = "<group>"; };
+		1536948B152C51E8009434DB /* NWCalabashApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NWCalabashApplication-Prefix.pch"; sourceTree = "<group>"; };
+		1536948C152C51E8009434DB /* NWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAppDelegate.h; sourceTree = "<group>"; };
 		1536948D152C51E8009434DB /* NWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWAppDelegate.m; sourceTree = "<group>"; };
 		15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWCalabashApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15369495152C51E8009434DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1536949D152C51E8009434DB /* NWCalabashApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "NWCalabashApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		1536949D152C51E8009434DB /* NWCalabashApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NWCalabashApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		1536949F152C51E8009434DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		153694A1152C51E8009434DB /* NWCalabashApplicationTests.h */ = {isa = PBXFileReference; path = NWCalabashApplicationTests.h; sourceTree = "<group>"; };
+		153694A1152C51E8009434DB /* NWCalabashApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWCalabashApplicationTests.h; sourceTree = "<group>"; };
 		153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWCalabashApplicationTests.m; sourceTree = "<group>"; };
+		153694AC152C527D009434DB /* NWAdditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWAdditionViewController.h; sourceTree = "<group>"; };
+		153694AD152C527D009434DB /* NWAdditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWAdditionViewController.m; sourceTree = "<group>"; };
+		153694AE152C527D009434DB /* NWAdditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWAdditionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,9 @@
 			children = (
 				1536948C152C51E8009434DB /* NWAppDelegate.h */,
 				1536948D152C51E8009434DB /* NWAppDelegate.m */,
+				153694AC152C527D009434DB /* NWAdditionViewController.h */,
+				153694AD152C527D009434DB /* NWAdditionViewController.m */,
+				153694AE152C527D009434DB /* NWAdditionViewController.xib */,
 				15369484152C51E8009434DB /* Supporting Files */,
 			);
 			path = NWCalabashApplication;
@@ -216,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15369488152C51E8009434DB /* InfoPlist.strings in Resources */,
+				153694B0152C527D009434DB /* NWAdditionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 			files = (
 				1536948A152C51E8009434DB /* main.m in Sources */,
 				1536948E152C51E8009434DB /* NWAppDelegate.m in Sources */,
+				153694AF152C527D009434DB /* NWAdditionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "NWAppDelegate.h"
+#import "NWAdditionViewController.h"
 
 @implementation NWAppDelegate
 
@@ -16,6 +17,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    NWAdditionViewController *rootViewController = [[NWAdditionViewController alloc] init];
+    self.window.rootViewController = rootViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
