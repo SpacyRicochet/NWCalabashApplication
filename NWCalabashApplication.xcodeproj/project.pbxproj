@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1536947E152C51E8009434DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947D152C51E8009434DB /* UIKit.framework */; };
+		15369480152C51E8009434DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947F152C51E8009434DB /* Foundation.framework */; };
+		15369482152C51E8009434DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15369481152C51E8009434DB /* CoreGraphics.framework */; };
+		15369488152C51E8009434DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15369486152C51E8009434DB /* InfoPlist.strings */; };
+		1536948A152C51E8009434DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15369489152C51E8009434DB /* main.m */; };
+		1536948E152C51E8009434DB /* NWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536948D152C51E8009434DB /* NWAppDelegate.m */; };
+		15369496152C51E8009434DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15369495152C51E8009434DB /* SenTestingKit.framework */; };
+		15369497152C51E8009434DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947D152C51E8009434DB /* UIKit.framework */; };
+		15369498152C51E8009434DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536947F152C51E8009434DB /* Foundation.framework */; };
+		153694A0152C51E8009434DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1536949E152C51E8009434DB /* InfoPlist.strings */; };
+		153694A3152C51E8009434DB /* NWCalabashApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15369499152C51E8009434DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15369470152C51E8009434DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15369478152C51E8009434DB;
+			remoteInfo = NWCalabashApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15369479152C51E8009434DB /* NWCalabashApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWCalabashApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1536947D152C51E8009434DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1536947F152C51E8009434DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15369481152C51E8009434DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15369485152C51E8009434DB /* NWCalabashApplication-Info.plist */ = {isa = PBXFileReference; path = "NWCalabashApplication-Info.plist"; sourceTree = "<group>"; };
+		15369487152C51E8009434DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15369489152C51E8009434DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1536948B152C51E8009434DB /* NWCalabashApplication-Prefix.pch */ = {isa = PBXFileReference; path = "NWCalabashApplication-Prefix.pch"; sourceTree = "<group>"; };
+		1536948C152C51E8009434DB /* NWAppDelegate.h */ = {isa = PBXFileReference; path = NWAppDelegate.h; sourceTree = "<group>"; };
+		1536948D152C51E8009434DB /* NWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWAppDelegate.m; sourceTree = "<group>"; };
+		15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWCalabashApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15369495152C51E8009434DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1536949D152C51E8009434DB /* NWCalabashApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "NWCalabashApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		1536949F152C51E8009434DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		153694A1152C51E8009434DB /* NWCalabashApplicationTests.h */ = {isa = PBXFileReference; path = NWCalabashApplicationTests.h; sourceTree = "<group>"; };
+		153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWCalabashApplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15369476152C51E8009434DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1536947E152C51E8009434DB /* UIKit.framework in Frameworks */,
+				15369480152C51E8009434DB /* Foundation.framework in Frameworks */,
+				15369482152C51E8009434DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15369490152C51E8009434DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15369496152C51E8009434DB /* SenTestingKit.framework in Frameworks */,
+				15369497152C51E8009434DB /* UIKit.framework in Frameworks */,
+				15369498152C51E8009434DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1536946E152C51E8009434DB = {
+			isa = PBXGroup;
+			children = (
+				15369483152C51E8009434DB /* NWCalabashApplication */,
+				1536949B152C51E8009434DB /* NWCalabashApplicationTests */,
+				1536947C152C51E8009434DB /* Frameworks */,
+				1536947A152C51E8009434DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1536947A152C51E8009434DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15369479152C51E8009434DB /* NWCalabashApplication.app */,
+				15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1536947C152C51E8009434DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1536947D152C51E8009434DB /* UIKit.framework */,
+				1536947F152C51E8009434DB /* Foundation.framework */,
+				15369481152C51E8009434DB /* CoreGraphics.framework */,
+				15369495152C51E8009434DB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15369483152C51E8009434DB /* NWCalabashApplication */ = {
+			isa = PBXGroup;
+			children = (
+				1536948C152C51E8009434DB /* NWAppDelegate.h */,
+				1536948D152C51E8009434DB /* NWAppDelegate.m */,
+				15369484152C51E8009434DB /* Supporting Files */,
+			);
+			path = NWCalabashApplication;
+			sourceTree = "<group>";
+		};
+		15369484152C51E8009434DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15369485152C51E8009434DB /* NWCalabashApplication-Info.plist */,
+				15369486152C51E8009434DB /* InfoPlist.strings */,
+				15369489152C51E8009434DB /* main.m */,
+				1536948B152C51E8009434DB /* NWCalabashApplication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1536949B152C51E8009434DB /* NWCalabashApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				153694A1152C51E8009434DB /* NWCalabashApplicationTests.h */,
+				153694A2152C51E8009434DB /* NWCalabashApplicationTests.m */,
+				1536949C152C51E8009434DB /* Supporting Files */,
+			);
+			path = NWCalabashApplicationTests;
+			sourceTree = "<group>";
+		};
+		1536949C152C51E8009434DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1536949D152C51E8009434DB /* NWCalabashApplicationTests-Info.plist */,
+				1536949E152C51E8009434DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15369478152C51E8009434DB /* NWCalabashApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153694A6152C51E8009434DB /* Build configuration list for PBXNativeTarget "NWCalabashApplication" */;
+			buildPhases = (
+				15369475152C51E8009434DB /* Sources */,
+				15369476152C51E8009434DB /* Frameworks */,
+				15369477152C51E8009434DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWCalabashApplication;
+			productName = NWCalabashApplication;
+			productReference = 15369479152C51E8009434DB /* NWCalabashApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15369493152C51E8009434DB /* NWCalabashApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153694A9152C51E8009434DB /* Build configuration list for PBXNativeTarget "NWCalabashApplicationTests" */;
+			buildPhases = (
+				1536948F152C51E8009434DB /* Sources */,
+				15369490152C51E8009434DB /* Frameworks */,
+				15369491152C51E8009434DB /* Resources */,
+				15369492152C51E8009434DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1536949A152C51E8009434DB /* PBXTargetDependency */,
+			);
+			name = NWCalabashApplicationTests;
+			productName = NWCalabashApplicationTests;
+			productReference = 15369494152C51E8009434DB /* NWCalabashApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15369470152C51E8009434DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NW;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Noodlewerk;
+			};
+			buildConfigurationList = 15369473152C51E8009434DB /* Build configuration list for PBXProject "NWCalabashApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1536946E152C51E8009434DB;
+			productRefGroup = 1536947A152C51E8009434DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15369478152C51E8009434DB /* NWCalabashApplication */,
+				15369493152C51E8009434DB /* NWCalabashApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15369477152C51E8009434DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15369488152C51E8009434DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15369491152C51E8009434DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153694A0152C51E8009434DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15369492152C51E8009434DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15369475152C51E8009434DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1536948A152C51E8009434DB /* main.m in Sources */,
+				1536948E152C51E8009434DB /* NWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1536948F152C51E8009434DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153694A3152C51E8009434DB /* NWCalabashApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1536949A152C51E8009434DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15369478152C51E8009434DB /* NWCalabashApplication */;
+			targetProxy = 15369499152C51E8009434DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15369486152C51E8009434DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15369487152C51E8009434DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1536949E152C51E8009434DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1536949F152C51E8009434DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153694A4152C51E8009434DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		153694A5152C51E8009434DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153694A7152C51E8009434DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplication/NWCalabashApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		153694A8152C51E8009434DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplication/NWCalabashApplication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		153694AA152C51E8009434DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWCalabashApplication.app/NWCalabashApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplicationTests/NWCalabashApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		153694AB152C51E8009434DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NWCalabashApplication.app/NWCalabashApplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWCalabashApplication/NWCalabashApplication-Prefix.pch";
+				INFOPLIST_FILE = "NWCalabashApplicationTests/NWCalabashApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15369473152C51E8009434DB /* Build configuration list for PBXProject "NWCalabashApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153694A4152C51E8009434DB /* Debug */,
+				153694A5152C51E8009434DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153694A6152C51E8009434DB /* Build configuration list for PBXNativeTarget "NWCalabashApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153694A7152C51E8009434DB /* Debug */,
+				153694A8152C51E8009434DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		153694A9152C51E8009434DB /* Build configuration list for PBXNativeTarget "NWCalabashApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153694AA152C51E8009434DB /* Debug */,
+				153694AB152C51E8009434DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15369470152C51E8009434DB /* Project object */;
+}
