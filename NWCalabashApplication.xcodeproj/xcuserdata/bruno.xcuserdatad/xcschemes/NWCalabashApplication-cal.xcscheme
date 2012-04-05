@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "153A5B93152C560300E22FB3"
+               BlueprintIdentifier = "153A5BBC152C79CC00E22FB3"
                BuildableName = "NWCalabashApplication copy.app"
                BlueprintName = "NWCalabashApplication-cal"
                ReferencedContainer = "container:NWCalabashApplication.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "153A5B93152C560300E22FB3"
+            BlueprintIdentifier = "153A5BBC152C79CC00E22FB3"
             BuildableName = "NWCalabashApplication copy.app"
             BlueprintName = "NWCalabashApplication-cal"
             ReferencedContainer = "container:NWCalabashApplication.xcodeproj">
@@ -50,7 +50,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "153A5B93152C560300E22FB3"
+            BlueprintIdentifier = "153A5BBC152C79CC00E22FB3"
             BuildableName = "NWCalabashApplication copy.app"
             BlueprintName = "NWCalabashApplication-cal"
             ReferencedContainer = "container:NWCalabashApplication.xcodeproj">
@@ -68,7 +68,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "153A5B93152C560300E22FB3"
+            BlueprintIdentifier = "153A5BBC152C79CC00E22FB3"
             BuildableName = "NWCalabashApplication copy.app"
             BlueprintName = "NWCalabashApplication-cal"
             ReferencedContainer = "container:NWCalabashApplication.xcodeproj">

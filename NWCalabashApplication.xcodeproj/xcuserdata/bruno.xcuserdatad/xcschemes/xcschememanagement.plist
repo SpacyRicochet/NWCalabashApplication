@@ -7,7 +7,7 @@
 		<key>NWCalabashApplication-cal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>NWCalabashApplication.xcscheme</key>
 		<dict>
@@ -28,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>153A5B93152C560300E22FB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>153A5BBC152C79CC00E22FB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
