@@ -1,0 +1,4 @@
+#exclude calabash-ios user-specific files
+screenshot_*.png
+.irb-history
+
