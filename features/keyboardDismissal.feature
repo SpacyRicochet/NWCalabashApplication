@@ -5,4 +5,5 @@ Feature: Keyboard dismisses on 'Done'
 Scenario: Example steps
     Given the app is running
         Then I touch "First number"
-        Then take picture
+        Then I touch "Done"
+        Then I should not see "Keyboard"
