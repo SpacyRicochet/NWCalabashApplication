@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NWAdditionViewController : UIViewController {
+@interface NWAdditionViewController : UIViewController <UITextFieldDelegate> {
     IBOutlet UIButton *calculateButton;
     IBOutlet UITextField *firstNumberTextField;
     IBOutlet UITextField *secondNumberTextfield;
     IBOutlet UILabel *plusSignLabel;
+    IBOutlet UILabel *resultLabel;
 }
 
 @end
